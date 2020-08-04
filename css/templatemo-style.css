@@ -529,6 +529,13 @@ html,body {
 
 .carousel-fade .carousel-inner .active {
     opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.splitshire.com/wp-content/uploads/2014/11/SplitShire-05072-1800x1200.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right {
